@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Scroll : MonoBehaviour {
 	public Renderer rend ;
-	public float velocidad =  0f;
+	public float velocidad =  0.4f;
 	void Start () {
 		rend = GetComponent <Renderer>();
 	}
