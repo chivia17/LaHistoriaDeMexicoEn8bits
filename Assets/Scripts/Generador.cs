@@ -4,8 +4,9 @@ using System.Collections;
 public class Generador : MonoBehaviour {
 
 	public GameObject[] obj;
-	public float tiempomin = 2f;
-	public float tiempomax = 4f;
+	public float tiempomin = 7f;
+	public float tiempomax = 8f;
+	bool grounded=false;
 	// Use this for initialization
 	void Start () {
 		generar ();
@@ -17,7 +18,10 @@ public class Generador : MonoBehaviour {
 	}
 
 	void generar(){
-		Instantiate (obj [Random.Range (0, obj.Length)], transform.position, Quaternion.identity);
-		Invoke("generar", Random.Range(tiempomin,tiempomax));
+		if (grounded && Input.touches.Length > 0) {
+		
+			Instantiate (obj [Random.Range (0, obj.Length)], transform.position, Quaternion.identity);
+			Invoke ("generar", Random.Range (tiempomin, tiempomax));
+		}
 }
 }
