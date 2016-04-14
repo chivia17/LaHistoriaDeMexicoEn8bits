@@ -8,7 +8,7 @@ public class EspañolGameOver : MonoBehaviour {
 	{
 		
 		if (other.gameObject.name.Equals ("Caballo1")) {
-			SceneManager.LoadScene (0);
+			SceneManager.LoadScene (2);
 		}
 	}
 }
