@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: 6687014d1c18447b5b4e1b18d30f36a4
-timeCreated: 1460612073
+guid: 36d96f7ce152228468436bf4fbf2dc30
+timeCreated: 1460613812
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: hidalgo1_0
-    21300002: hidalgo1_1
-    21300004: hidalgo1_2
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -33,59 +30,26 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
-    wrapMode: 1
-  nPOTScale: 0
+    wrapMode: -1
+  nPOTScale: 1
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 1
-  textureType: 8
+  alphaIsTransparency: 0
+  textureType: -1
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: hidalgo1_0
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 204
-        width: 26
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: hidalgo1_1
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 205
-        width: 27
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: hidalgo1_2
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 204
-        width: 26
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 
