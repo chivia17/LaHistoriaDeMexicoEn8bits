@@ -3,8 +3,9 @@ using System.Collections;
 
 public class Avanza : MonoBehaviour {
 	float acl;
+	public static float posx;
 	// Use this for initialization
-	void Start () {
+	void Start () {		
 	}
 	
 	// Update is called once per frame
@@ -18,8 +19,6 @@ public class Avanza : MonoBehaviour {
 			GetComponent<Rigidbody> ().AddForce (new Vector2 (acl, 0), ForceMode.Impulse);
 
 		}
-
-		Debug.Log (acl);
-		Debug.Log ("Velocidad: "+GetComponent<Rigidbody>().velocity);
+		posx = transform.position.x;
 	}
 }

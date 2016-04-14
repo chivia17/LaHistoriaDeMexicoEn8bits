@@ -10,7 +10,7 @@ public class salto : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (grounded && Input.touches.Length > 0) {
+		if (grounded && (Input.touches.Length > 0 || Input.anyKeyDown)) {
 			GetComponent<Rigidbody> ().AddForce (new Vector2 (0, 7), ForceMode.Impulse);
 		}
 	
